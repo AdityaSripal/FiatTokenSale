@@ -5,3 +5,7 @@ This is a smart contract to facilitate token sales enabled by fiat. The model as
 Implementation:
 
 The founding team owns an address that is solely capable of minting and sending tokens to other addresses.
+
+Currently the code is taken entirely from OpenZeppelin contracts. The contract that will be deployed for the fiat token sale is MintableToken.sol
+
+The founding team simply calls mint function with the appropriate value and receiver address. This contract may change as the spec evolves.
