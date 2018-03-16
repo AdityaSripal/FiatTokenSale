@@ -10,5 +10,5 @@ Currently the code is taken entirely from OpenZeppelin contracts. The contract t
 
 The founding team simply calls mint function with the appropriate value and receiver address. This contract may change as the spec evolves.
 
-totalSupply = 10,000,000,000
+totalSupply = 10,000,000,000 \\
 pricePerToken = 0.01
