@@ -9,3 +9,6 @@ The founding team owns an address that is solely capable of minting and sending 
 Currently the code is taken entirely from OpenZeppelin contracts. The contract that will be deployed for the fiat token sale is MintableToken.sol
 
 The founding team simply calls mint function with the appropriate value and receiver address. This contract may change as the spec evolves.
+
+totalSupply = 10,000,000,000
+pricePerToken = 0.01
