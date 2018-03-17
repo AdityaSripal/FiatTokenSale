@@ -1,5 +1,5 @@
-var MintableToken = artifacts.require("MintableToken");
+var FiatToken = artifacts.require("FiatToken");
 
 module.exports = function(deployer) {
-    deployer.deploy(MintableToken);
+    deployer.deploy(FiatToken);
   };
